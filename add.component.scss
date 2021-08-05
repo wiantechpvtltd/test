@@ -1,0 +1,66 @@
+
+nb-select{
+
+  display: flex;
+  position: relative;
+  left: -15px;
+  top: -6px;
+  height: 47px;
+  width: 19vw;
+  border: #fff;
+  background:#fff;
+  
+  }
+
+  nb-radio-group {
+    background-color:#fff ;
+    border-color: #fff;
+  }
+
+  nb-card-body{
+    overflow-x: hidden;
+  }
+
+.btn_Cancel{
+  height: 33px;
+  background-color: #0d7f7f !important;
+  border: none !important;
+  margin-top: 44px;
+  }
+.btn_save{
+  position: relative;
+  left: 1em;
+  height: 33px;
+  background-color: #fc862f !important;
+  border: none !important;
+  top: 22px;
+}
+.check_active{
+
+  position: relative;
+  left: -14px !important;
+  top:22px !important;
+
+}
+.check_inactive{
+
+  position: relative;
+  top: -14px;
+  left: 66px;
+
+}
+.label_status{
+  position: absolute;
+    left: 15px;
+    font-weight: bold;
+    color: #8f9bb3;
+    font-size: 12.5px;
+}
+
+#isActive {
+  border: none;
+}
+#invalid_feedback {
+  position: relative;
+  top: 25px;
+}
